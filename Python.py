@@ -159,4 +159,4 @@ while menuu==True:
     else:
         menuu=False
 
-# Programa desarrollado por Camilo Machuca Vega
+# Programa desarrollado por Camilo Machuca Vega grupo: T2
