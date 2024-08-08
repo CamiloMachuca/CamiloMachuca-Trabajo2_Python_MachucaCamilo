@@ -138,5 +138,19 @@
                 "precioCompra": 20
             }
         ]
+    },
+    {
+        "fechaVenta": "2024-08-08",
+        "proveedor": {
+            "nombre": "sdfsdf",
+            "contacto": "affdad"
+        },
+        "medicamentosComprados": [
+            {
+                "nombre": "afadsfa",
+                "cantidad": 2,
+                "preciodeventa": 22222.0
+            }
+        ]
     }
 ]
