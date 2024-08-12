@@ -152,5 +152,23 @@
                 "preciodeventa": 222.0
             }
         ]
+    },
+    {
+        "fechaVenta": "2024-08-12",
+        "paciente": {
+            "nombre": "sbdhd",
+            "direccion": "dndsj"
+        },
+        "empleado": {
+            "nombre": "sdsdsd",
+            "cargo": "sdssdd"
+        },
+        "medicamentosVendidos": [
+            {
+                "nombre": "Paracetamol",
+                "cantidad": 1,
+                "preciodeventa": 20
+            }
+        ]
     }
 ]

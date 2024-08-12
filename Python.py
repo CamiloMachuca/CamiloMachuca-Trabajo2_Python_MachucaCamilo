@@ -123,7 +123,9 @@ while menuu==True:
         while buliano==True:# se utiliza un bucle while para crear los productos que el usuario requiera y asi añadirlos al json
             medicamento=input("escribe el nombre del producto: ")
             cantidad=int(input("cantidad: "))
-            precio=str(input("Precio: "))
+            for i in listaMedicamentos:
+                if medicamento== i["nombre"]:
+                    precio=i["precio"]
             medicamentosVendidos.append((medicamento, cantidad, precio))
             seguir=int(input("si deseas agregar otro producto escribe (si=1) o si deseas finalizar escribe (no=2)"))
             if seguir==1:
